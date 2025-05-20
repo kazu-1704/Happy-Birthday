@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const pages = {
     1: {
       title: 'INFORMATION',
-      content: 'Name: Lê Quốc Khánh<br>Nickname: Tricker Lỏ, Kazuto<br>Height/Weight: 1M65/44Kg<br>Date of Birth: 17/04<br>Hometown: Đà Nẵng'
+      content: 'Name: Lê Quốc Khánh<br>Nickname: Tricker Lỏ, Kazuto<br>Height/Weight: 1M65/44Kg<br>Date of Birth: 17/04/2010<br>Hometown: Đà Nẵng'
     },
     2: {
       title: 'OCCUPATION',
