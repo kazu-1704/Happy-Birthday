@@ -22,12 +22,16 @@ document.addEventListener('DOMContentLoaded', () => {
       content: '1: Chơi game (AoV, HoK, Zsm, Genshin)<br>2: Đọc truyện tranh (Manwa, Manhua, Manga)<br>3: Đọc tiểu thuyết (Ln, Wn)<br>4: Xem phim<br>5: Edit video<br>6: Chơi rubik<br>7: Viết code'
     },
     4: {
-      title: 'CONTACTS',
-      content: 'Chưa gắn =))'
-    }
-  };
+  title: 'CONTACTS',
+  content: `
+    <div class="social-links">
+      <a href="https://facebook.com/kazu.1704" target="_blank" class="social-btn fb">Facebook</a>
+    </div>
+  `
+}
+  }; 
 
-  function getRandomColor() {
+function getRandomColor() {
     const r = Math.floor(Math.random() * 256);
     const g = Math.floor(Math.random() * 256);
     const b = Math.floor(Math.random() * 256);

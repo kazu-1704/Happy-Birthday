@@ -1,9 +1,9 @@
 let datetxt = "20/05/2010";
-let datatxtletter = "Happy birthday to the sweetest person I know! I hope your special day is filled with love, laughter, and all the little things that make you smile. You deserve nothing but the best, not just today but every single day. Thank you for being such a beautiful light in the lives of those around you. May all your dreams come true and may this year bring you closer to everything your heart desires. Keep being amazing, stay happy, and never stop shining. Wishing you a birthday as wonderful and unforgettable as you are!";
-let titleLetter = "Dear Em=))";
-let charArrDate = datetxt.split('');
-let charArrDateLetter = datatxtletter.split('');
-let charArrTitle = titleLetter.split('');
+let datatxtletter = "Chúc bạn sinh nhật vui vẻ, luôn khỏe mạnh, thành công và mọi ước mơ đều thành hiện thực. Cảm ơn đã xuất hiện trong cuộc đời tôi, để tôi có thể biết được cuộc sống vui vẻ như thế nào. Hôm nay là ngày của bạn, hãy tận hưởng thật trọn vẹn nhé!";
+let titleLetter = "Dear em =))";
+let charArrDate = Array.from(datetxt);
+let charArrDateLetter = Array.from(datatxtletter);
+let charArrTitle = Array.from(titleLetter);
 let currentIndex = 0;
 let currentIndexLetter = 0;
 let currentIndexTitle = 0;
